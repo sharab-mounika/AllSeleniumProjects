@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="7" total="14" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-23T16:05:34 IST" name="Loan Department" finished-at="2021-05-23T16:05:34 IST" duration-ms="208">
+    <groups>
+      <group name="smoke">
+        <method signature="SecondTestNGclass.test4()[pri:0, instance:TestNGPackage.SecondTestNGclass@23529fee]" name="test4" class="TestNGPackage.SecondTestNGclass"/>
+        <method signature="firstTestNGclass.test1()[pri:0, instance:TestNGPackage.firstTestNGclass@7f1302d6]" name="test1" class="TestNGPackage.firstTestNGclass"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-05-23T16:05:34 IST" name="Personal loan" finished-at="2021-05-23T16:05:34 IST" duration-ms="58">
+      <class name="TestNGPackage.firstTestNGclass">
+        <test-method is-config="true" signature="beforeTestForTestFolderXML()[pri:0, instance:TestNGPackage.firstTestNGclass@7f1302d6]" started-at="2021-05-23T16:05:34 IST" name="beforeTestForTestFolderXML" finished-at="2021-05-23T16:05:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestForTestFolderXML -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:TestNGPackage.firstTestNGclass@7f1302d6]" started-at="2021-05-23T16:05:34 IST" name="beforeclass" finished-at="2021-05-23T16:05:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestNGPackage.firstTestNGclass@7f1302d6]" started-at="2021-05-23T16:05:34 IST" name="beforemethod" finished-at="2021-05-23T16:05:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="test1()[pri:0, instance:TestNGPackage.firstTestNGclass@7f1302d6]" started-at="2021-05-23T16:05:34 IST" name="test1" finished-at="2021-05-23T16:05:34 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestNGPackage.firstTestNGclass@7f1302d6]" started-at="2021-05-23T16:05:34 IST" name="aftermethod" finished-at="2021-05-23T16:05:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:TestNGPackage.firstTestNGclass@7f1302d6]" started-at="2021-05-23T16:05:34 IST" name="afterclass" finished-at="2021-05-23T16:05:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="AfterTestForTestFolderXML()[pri:0, instance:TestNGPackage.firstTestNGclass@7f1302d6]" started-at="2021-05-23T16:05:34 IST" name="AfterTestForTestFolderXML" finished-at="2021-05-23T16:05:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTestForTestFolderXML -->
+      </class> <!-- TestNGPackage.firstTestNGclass -->
+      <class name="TestNGPackage.SecondTestNGclass">
+        <test-method signature="test4()[pri:0, instance:TestNGPackage.SecondTestNGclass@23529fee]" started-at="2021-05-23T16:05:34 IST" name="test4" finished-at="2021-05-23T16:05:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- TestNGPackage.SecondTestNGclass -->
+    </test> <!-- Personal loan -->
+    <test started-at="2021-05-23T16:05:34 IST" name="carloan" finished-at="2021-05-23T16:05:34 IST" duration-ms="13">
+      <class name="TestNGPackage.ThirdTestNGclass">
+        <test-method signature="Webcarlon()[pri:0, instance:TestNGPackage.ThirdTestNGclass@25d250c6]" started-at="2021-05-23T16:05:34 IST" name="Webcarlon" finished-at="2021-05-23T16:05:34 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Webcarlon -->
+      </class> <!-- TestNGPackage.ThirdTestNGclass -->
+    </test> <!-- carloan -->
+    <test started-at="2021-05-23T16:05:34 IST" name="homeloan" finished-at="2021-05-23T16:05:34 IST" duration-ms="35">
+      <class name="TestNGPackage.firstTestNGclass">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:TestNGPackage.firstTestNGclass@7f1302d6]" started-at="2021-05-23T16:05:34 IST" name="beforesuite" finished-at="2021-05-23T16:05:34 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:TestNGPackage.firstTestNGclass@7f1302d6]" started-at="2021-05-23T16:05:34 IST" name="aftersuite" finished-at="2021-05-23T16:05:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- TestNGPackage.firstTestNGclass -->
+      <class name="TestNGPackage.FourthTestNGclass2">
+        <test-method signature="WebHomelon(java.lang.String, java.lang.String)[pri:0, instance:TestNGPackage.FourthTestNGclass2@56528192]" started-at="2021-05-23T16:05:34 IST" name="WebHomelon" finished-at="2021-05-23T16:05:34 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://rahulshettyacademy.com/angularpractice/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebHomelon -->
+        <test-method signature="datademo(java.lang.String, java.lang.String)[pri:0, instance:TestNGPackage.FourthTestNGclass2@56528192]" started-at="2021-05-23T16:05:34 IST" name="datademo" data-provider="getdata" finished-at="2021-05-23T16:05:34 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mounika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datademo -->
+        <test-method signature="datademo(java.lang.String, java.lang.String)[pri:0, instance:TestNGPackage.FourthTestNGclass2@56528192]" started-at="2021-05-23T16:05:34 IST" name="datademo" data-provider="getdata" finished-at="2021-05-23T16:05:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datademo -->
+        <test-method signature="datademo(java.lang.String, java.lang.String)[pri:0, instance:TestNGPackage.FourthTestNGclass2@56528192]" started-at="2021-05-23T16:05:34 IST" name="datademo" data-provider="getdata" finished-at="2021-05-23T16:05:34 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datademo -->
+      </class> <!-- TestNGPackage.FourthTestNGclass2 -->
+    </test> <!-- homeloan -->
+  </suite> <!-- Loan Department -->
+</testng-results>

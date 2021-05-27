@@ -1,0 +1,6 @@
+11:50:52.243 [TestNG-tests-1] INFO  resources.BrowserInvocation - navigated to url
+11:50:59.775 [TestNG-tests-1] INFO  resources.BrowserInvocation - driver initialised
+11:52:38.472 [TestNG-tests-1] INFO  resources.BrowserInvocation - navigated to url
+19:37:43.444 [TestNG-tests-2] INFO  resources.BrowserInvocation - driver initialised
+19:37:43.444 [TestNG-tests-1] INFO  resources.BrowserInvocation - driver initialised
+19:38:24.988 [TestNG-tests-2] INFO  resources.BrowserInvocation - navigated to url

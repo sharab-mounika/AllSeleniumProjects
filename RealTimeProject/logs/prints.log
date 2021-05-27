@@ -1,0 +1,4 @@
+19:38:26.022 [TestNG-tests-2] INFO  resources.BrowserInvocation - successfully validated navigation bar
+19:38:26.977 [TestNG-tests-1] INFO  resources.BrowserInvocation - navigated to url
+19:38:34.815 [TestNG-tests-1] INFO  resources.BrowserInvocation - driver initialised
+19:38:53.017 [TestNG-tests-1] INFO  resources.BrowserInvocation - navigated to url
