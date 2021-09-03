@@ -1,0 +1,34 @@
+package TestNGPackage;
+
+import org.testng.Assert;
+
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+public class AssertionsDemo {
+	
+	SoftAssert softassert = new SoftAssert();
+	
+	@Test
+	public void test1() {
+		System.out.println("open browser ");
+		System.out.println("enter username");
+		System.out.println("enter password");
+		softassert.assertEquals(true, false); 	//soft assert
+		softassert.assertEquals(true, false,"assertion fails"); // it will give you message when assertion fails 
+		System.out.println("line1 after soft assert will be executed");
+		// Soft assertion - if any assertion gets failed, immediately lines after assertion will not stop executing, 
+		//TC will not be terminated and TC will be passed (if you don't give softassert.assertAll() at last line of tc)
+		
+		
+		
+		//Assert.assertEquals(true, false);			// hard assert
+		//Hard assertion - if any assertion gets failed, immediately lines after assertion will not be executed, TC will be terminated and test case will be marked as failed 
+		System.out.println("line1 after hard assert will not be executed");
+		System.out.println("line2 after hard assert will not be executed");
+		softassert.assertAll(); //in order to mark tc as failed once your soft asserts in your tc has failed, we need to give softassert.assertAll(); at last line of tc
+		// all your soft assertions in the tc will be stored in soft asser object once you do softassert.assertAll();it will go and check all soft assertions failures and mark your tc as failed
+		//softassert.assertAll(); although it will not terminate your programme but fail your tc and gives you assertion errors 
+	}
+
+}
