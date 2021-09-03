@@ -41,5 +41,40 @@ public class StepDefinition {
         System.out.println("cards are not displyed for invalid login");
         
     }
+    @Then("^testing \"([^\"]*)\"$")
+    public void testing(String arg1) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @Given("^Initialize the browser with chrome$")
+    public void initialize_the_browser_with_chrome() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @Given("^Navigate to \"([^\"]*)\" Site$")
+    public void navigate_to_Site(String arg1) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @Given("^Click on Login link in home page to land on Secure sign in Page$")
+    public void click_on_Login_link_in_home_page_to_land_on_Secure_sign_in_Page() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @When("^User enters test(\\d+)@gmail\\.com and (\\d+) and logs in  // when there are <> that means data is driving from examples$")
+    public void user_enters_test_gmail_com_and_and_logs_in_when_there_are_that_means_data_is_driving_from_examples(int arg1, int arg2) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @When("^close browsers$")
+    public void close_browsers() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
 
 }

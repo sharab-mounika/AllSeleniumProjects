@@ -12,6 +12,7 @@ Given User is on Netbanking landing page
 When User login into application with username "xyz" and password "124444"
 Then Homepage is populated
 And cards are not displayed
+And testing "user"
 
 # for understanding purpose given below example 
 

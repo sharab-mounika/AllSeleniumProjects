@@ -10,6 +10,7 @@ public class SuperChild extends SuperParent{
 		System.out.println("parent class variable value"+super.a);
 	}
 	
+	
 	public void getmethod() {
 		System.out.println("I'm in child class");
 		super.getmethod();   		// if you don't use super keyword here this child method will override the parent method
@@ -23,10 +24,14 @@ public class SuperChild extends SuperParent{
 
 	public static void main(String[] args) {
 		
-		
+//		SuperParent obj1 = new SuperParent();
+//		obj1.getmethod();
 		SuperChild obj = new SuperChild();
 		obj.getvales();
 		obj.getmethod();
+	
+	
+		 
 	}
 
 }

@@ -26,12 +26,15 @@ public class VariableAndStatic {
 	
 	public void getdetails(){
 		System.out.println("name is  "+name +" age is "+age+" city is "+city);
+		//System.out.println(city); // you can call static or non static variables directly in non static methods 
 		
 	}
 	
 	public static void getcity() {
-		System.out.println(city);   //in static methods only static variables are used
+		System.out.println(city);   //in static methods only static variables are used and if you want to call non static variables, create an obj and call variables using obj name
 		//statics methods are called as class methods and can be called using class name
+//		VariableAndStatic mona_details1 = new VariableAndStatic("Mounika",26);
+//		System.out.println(mona_details1.name);
 	}
 	
 	// static block everything we can initialize at one place
@@ -40,14 +43,14 @@ public class VariableAndStatic {
 	static {
 		s = "mona";
 	    m = 25;
-	
 		
 	}
 	
 	
-	
+	static String p;
 
 	public static void main(String[] args) {
+		p="mona";
 		VariableAndStatic mona_details = new VariableAndStatic("Mounika",25);
 		VariableAndStatic vidya_details = new VariableAndStatic("vidya",25);
 		mona_details.getdetails();   // using objects we are executing or getting details of particular person
@@ -58,6 +61,7 @@ public class VariableAndStatic {
 		System.out.println(y);	// o/p is 99
 		System.out.println(s +" "+m);
 		System.out.println(mona_details.name);
+		
 		
 	}
 

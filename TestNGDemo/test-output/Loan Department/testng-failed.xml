@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Loan Department]" guice-stage="DEVELOPMENT">
-  <parameter name="URL" value="http://google.com"/>
-  <test thread-count="5" name="homeloan(failed)">
-    <parameter name="APikey" value="12345"/>
-    <parameter name="URL" value="https://rahulshettyacademy.com/angularpractice/"/>
+  <test thread-count="5" name="Personal loan(failed)">
     <classes>
+      <class name="TestNGPackage.AssertionsDemo">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- TestNGPackage.AssertionsDemo -->
       <class name="TestNGPackage.FourthTestNGclass2">
         <methods>
           <include name="WebHomelon"/>
         </methods>
       </class> <!-- TestNGPackage.FourthTestNGclass2 -->
     </classes>
-  </test> <!-- homeloan(failed) -->
+  </test> <!-- Personal loan(failed) -->
 </suite> <!-- Failed suite [Loan Department] -->

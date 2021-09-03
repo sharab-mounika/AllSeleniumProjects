@@ -15,7 +15,7 @@ public class Loginpage {
 	}
 	
 	
-	By userName = By.xpath("//*[@id='login1']");
+	private By userName = By.xpath("//*[@id='login1']");
 	By passWord =By.id("password");
 	By signBttn = By.xpath("//input[@name='proceed']");
 	

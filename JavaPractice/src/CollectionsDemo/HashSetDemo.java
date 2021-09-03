@@ -19,7 +19,7 @@ public class HashSetDemo {
 		System.out.println(obj.size());
 		System.out.println(obj.isEmpty());
 		/*
-		HashSet treeset, LinkedHashset implements Set interface
+		HashSet, treeset, LinkedHashset implements Set interface
 		does not accept duplicate values  
 		There is no guarantee elements stored in sequential order..Random order
 		 */

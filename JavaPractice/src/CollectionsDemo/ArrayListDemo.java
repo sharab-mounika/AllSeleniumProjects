@@ -20,7 +20,7 @@ public class ArrayListDemo {
 		obj.remove("mounika");
 		System.out.println(obj);
 		System.out.println(obj.get(2));
-		// to check whether an element is present is arraylist or not
+		// to check whether an element is present in arraylist or not
 		System.out.println(obj.contains("mounika"));    //it will return a boolean value
 		System.out.println(obj.indexOf("daddy"));
 		System.out.println(obj.isEmpty());

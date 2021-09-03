@@ -49,7 +49,6 @@ public class Loops {
 		for (int s = 0;s<4;s++) {
 			
 			for (int i=1;i<=4-s;i++) {
-				
 					System.out.print(r+"\t");
 					r++;
 				
@@ -98,7 +97,7 @@ public class Loops {
 		int k=1;
 		for(int i=1;i<=4;i++) {
 			for(int j=1;j<=i;j++) {
-				System.out.print("\t"+k+"\t");
+				System.out.print("\t"+i+"\t");
 		}
 			k++;
 			System.out.println("\n");
@@ -121,3 +120,22 @@ public class Loops {
 		}
 
 }
+/* febnoice series
+ * class FibonacciExample1{  
+public static void main(String args[])  
+{    
+ int n1=0,n2=1,n3,i,count=10;    
+ System.out.print(n1+" "+n2);//printing 0 and 1    
+    
+ for(i=2;i<count;++i)//loop starts from 2 because 0 and 1 are already printed    
+ {    
+  n3=n1+n2;    
+  System.out.print(" "+n3);    
+  n1=n2;    
+  n2=n3;    
+ }    
+  
+}}  
+ * 
+ * */
+

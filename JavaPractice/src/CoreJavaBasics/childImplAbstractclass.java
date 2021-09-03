@@ -5,12 +5,17 @@ public class childImplAbstractclass extends AbstrClassDemo {
 	public static void main(String[] args) {
 		childImplAbstractclass a = new childImplAbstractclass();
 		AbstrClassDemo b = new childImplAbstractclass();
+		//AbstrClassDemo c = new AbstrClassDemo(); you cannot create obj for abr class but you create ref variable using class where it is being implemented and class abr class methods using ref variable and using this ref variable you cannot call metods in this class
+		
 		a.airlinesafety();
 		a.engine();
 		a.color();
 		b.engine();
-		//a.size();
-		
+		b.airlinesafety();
+		b.color();
+		a.size();
+		//b.size();
+	
 	}
 
 	//@Override
@@ -19,14 +24,17 @@ public class childImplAbstractclass extends AbstrClassDemo {
 		
 	}
 	
-	/*public void size() {
+	public void size() {
 		System.out.println("size is implemented");
 		
-	}*/
+	}
 	
 	public void ex(){
 		System.out.println("eg");
 	}
+//	public void engine() {
+//		System.out.println("check engine override");
+//	}
 
 }
 	

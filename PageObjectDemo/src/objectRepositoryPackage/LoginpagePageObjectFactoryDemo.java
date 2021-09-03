@@ -13,6 +13,7 @@ public class LoginpagePageObjectFactoryDemo {
 	public LoginpagePageObjectFactoryDemo(WebDriver driver) {	//// I'm passing testcase driver  object  into the constructor 
 		this.driver = driver;				// assigning testcase driver to local driver to give the knowledge of testcase driver that on which browser it must be executed 
 		PageFactory.initElements(driver, this);			// extra line we need to add
+		//initelements is a static metod in pagefactory class used to initialize all page objects in that page class 
 		
 	}
 	

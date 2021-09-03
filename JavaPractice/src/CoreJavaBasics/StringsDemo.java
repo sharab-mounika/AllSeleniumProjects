@@ -24,7 +24,7 @@ public class StringsDemo {
 		System.out.println(name.replace("m", "r"));
 		
 		// to check whether string is palendrome or not
-		String s = "mounika";
+		String s = "noon";
 		String t = "";
 		for (int i = s.length()-1;i>=0;i--) {
 			
@@ -44,6 +44,8 @@ public class StringsDemo {
 		String m = "";
 		for(int k = b.length-1;k>=0;k--) {
 			m = m + b[k];
+
+			
 			//System.out.print(m);
 			
 		}

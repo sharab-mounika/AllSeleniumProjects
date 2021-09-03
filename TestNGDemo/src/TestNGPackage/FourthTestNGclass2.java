@@ -56,6 +56,7 @@ public class FourthTestNGclass2 {
 			//creating multidimentional object array
 			//Object[][] data =new  Object[3][2];
 			Object[][] data = {{"mounika","25"},{"a","23"},{"b","20"}};
+			//int[][] data1 = {};
 			// as you are sending 3 sets of data each set having two parameters username and age then corresponding test will run for 3 times with 3 different sets of data
 			return data;
 			

@@ -34,7 +34,7 @@ public class class1 {
 	
 	@Test
 	public void browerInitialisation() {
-		extent.createTest("browerInitialisation");		// telling to create test that means extent will keep on updating what's happening in the test 
+		extent.createTest("browerInitialisation");		// telling to create test that means extent will keep on updating what's happening in the test, it will monitor when your tc is being passed or failed 
 		System.setProperty("webdriver.chrome.driver", "C:\\DRIVERS\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");

@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-18T11:59:23 IST" name="Suite" finished-at="2020-09-18T11:59:23 IST" duration-ms="46">
+  <suite started-at="2021-08-16T16:29:38 IST" name="Command line suite" finished-at="2021-08-16T16:29:38 IST" duration-ms="65">
     <groups>
     </groups>
-    <test started-at="2020-09-18T11:59:23 IST" name="Test" finished-at="2020-09-18T11:59:23 IST" duration-ms="46">
+    <test started-at="2021-08-16T16:29:38 IST" name="Command line test" finished-at="2021-08-16T16:29:38 IST" duration-ms="65">
       <class name="MavenPackage.classAppiumTest">
-        <test-method signature="IOSAPP()[pri:0, instance:MavenPackage.classAppiumTest@4387b79e]" started-at="2020-09-18T11:59:23 IST" name="IOSAPP" finished-at="2020-09-18T11:59:23 IST" duration-ms="0" status="PASS">
+        <test-method signature="IOSAPP()[pri:0, instance:MavenPackage.classAppiumTest@6950e31]" started-at="2021-08-16T16:29:38 IST" name="IOSAPP" finished-at="2021-08-16T16:29:38 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- IOSAPP -->
-        <test-method signature="NativeAPP()[pri:0, instance:MavenPackage.classAppiumTest@4387b79e]" started-at="2020-09-18T11:59:23 IST" name="NativeAPP" finished-at="2020-09-18T11:59:23 IST" duration-ms="0" status="PASS">
+        <test-method signature="NativeAPP()[pri:0, instance:MavenPackage.classAppiumTest@6950e31]" started-at="2021-08-16T16:29:38 IST" name="NativeAPP" finished-at="2021-08-16T16:29:38 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NativeAPP -->
       </class> <!-- MavenPackage.classAppiumTest -->
       <class name="MavenPackage.SeleniumTest">
-        <test-method signature="BrowserAutomation()[pri:0, instance:MavenPackage.SeleniumTest@4f638935]" started-at="2020-09-18T11:59:23 IST" name="BrowserAutomation" finished-at="2020-09-18T11:59:23 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserAutomation -->
-        <test-method signature="Elements()[pri:0, instance:MavenPackage.SeleniumTest@4f638935]" started-at="2020-09-18T11:59:23 IST" name="Elements" finished-at="2020-09-18T11:59:23 IST" duration-ms="0" status="PASS">
+        <test-method signature="Elements()[pri:0, instance:MavenPackage.SeleniumTest@b7dd107]" started-at="2021-08-16T16:29:38 IST" name="Elements" finished-at="2021-08-16T16:29:38 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Elements -->
+        <test-method signature="BrowserAutomation()[pri:0, instance:MavenPackage.SeleniumTest@b7dd107]" started-at="2021-08-16T16:29:38 IST" name="BrowserAutomation" finished-at="2021-08-16T16:29:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserAutomation -->
       </class> <!-- MavenPackage.SeleniumTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
 </testng-results>

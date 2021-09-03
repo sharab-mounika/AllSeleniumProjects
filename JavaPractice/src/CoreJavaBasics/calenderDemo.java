@@ -11,9 +11,12 @@ public class calenderDemo {
 		System.out.println(cal.get(Calendar.DAY_OF_MONTH));
 		System.out.println(cal.get(Calendar.DAY_OF_WEEK_IN_MONTH));
 		System.out.println(cal.get(Calendar.AM_PM));
+		//System.out.println(cal.get(Calendar.
 		/*The Calendar class is an abstract class that provides methods for converting between a specific instant in time and a set of calendar fields such as YEAR, MONTH, DAY_OF_MONTH, HOUR, and 
 		 * so on, and *  formanipulating the calendar fields, 
 		  */
+		FinalDemo obj = new FinalDemo();
+		obj.finalmethod();
 
 	}
 

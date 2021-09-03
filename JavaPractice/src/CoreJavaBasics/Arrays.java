@@ -31,7 +31,7 @@ public class Arrays {
 		 
 		for(int s=x.length-1;s>=0;s--) {
 		 
-				y[t-s]= x[s];
+				y[t-s]= x[s]; 
 			System.out.println(y[t-s]);
 			t=t-1;
 			
@@ -40,6 +40,7 @@ public class Arrays {
 		
 		 
 		 if (x.equals(y)) {
+			
 			 System.out.println("palendrome");
 		 }
 		 else {
